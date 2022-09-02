@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a,b,c,avg;
+    cout<<"Please Enter the 3 numbers to find their average"<<endl;
+    cin>>a>>b>>c;
+    avg=a+b+c;
+    cout<<"average of "<<a<<" , "<<b<<" , "<<c<<" is  = "<<avg/3;
+}
